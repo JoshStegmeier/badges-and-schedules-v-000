@@ -8,7 +8,6 @@ def batch_badge_creator(array)
     message = badge_maker(person)
     newArray << message
   end
-  binding.pry
   return newArray
 end
 
@@ -19,5 +18,3 @@ def assign_rooms(array)
   end
   return newArray
 end
-
-batch_badge_creator
